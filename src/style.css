@@ -1,0 +1,35 @@
+.nb {
+    height: 60px;
+    width: 60px;
+}
+
+.ni {
+    margin-left: 20px;
+    text-align: right;
+}
+
+.navbar {
+    text-align: end;
+}
+.icon1 {
+    margin-left: 850px;
+    margin-right: 20px;
+}
+
+.icon2 {
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.icon {
+    padding: -2px;
+    margin-right: 20px;
+}
+
+.nav {
+    background-color: seashell;
+}
+
+.footer {
+    text-align: center;
+}

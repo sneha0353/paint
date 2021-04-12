@@ -1,0 +1,59 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
+
+.expand_button {
+    top: 50px;
+    left: 50px;
+    transform: translate(0, -50%);
+}
+
+@keyframes anim-moema-1 {
+	85% {
+		-webkit-transform: scale3d(1.1, 1.1, 1);
+		transform: scale3d(1.2, 1.2, 2);
+	}
+	100% {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1.2, 1.2, 1.2);
+	}
+}
+
+.icon{
+    padding-right: 3px !important;
+}
+
+.e-button {
+    color: #fff;
+    background-color: #000;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    overflow: hidden;
+    max-width: 30px;
+    -webkit-transition: max-width 0.3s ease-in-out;
+    -moz-transition: max-width 0.3s ease-in-out;
+    -o-transition: max-width 0.3s ease-in-out;
+    transition: max-width 0.3s linear
+}
+
+.e-button-text {
+    display: block;
+    white-space: nowrap;
+    color: #fff
+}
+
+.e-button:hover {
+    background-color: #000;
+    color: #fff;
+    max-width: 280px;
+    animation: anim-moema-1 0.3s forwards;
+}
+
+#tool{
+    display: flex;
+}
+
+.pencil:hover{
+    animation: anim-moema-1 0.3s forwards;
+}
